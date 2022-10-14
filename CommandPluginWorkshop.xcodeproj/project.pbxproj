@@ -19,6 +19,7 @@
 		07253A9C28F9319600353A32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07253A9E28F9319600353A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07253AA128F9319600353A32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07253AAA28F932AD00353A32 /* MyUsefulTools */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyUsefulTools; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		07253A8E28F9319600353A32 = {
 			isa = PBXGroup;
 			children = (
+				07253AAA28F932AD00353A32 /* MyUsefulTools */,
 				07253A9928F9319600353A32 /* CommandPluginWorkshop */,
 				07253A9828F9319600353A32 /* Products */,
 			);
