@@ -16,7 +16,7 @@ let package = Package(
         .plugin(
             name: "MyCommand",
             capability: .command(
-                intent: .custom(verb: "Make hello.txt into your project", description: "This is a sample command!"),
+                intent: .custom(verb: "do-something", description: "This is a sample command!"),
                 permissions: [.writeToPackageDirectory(reason: "testing")]
             )
         )
