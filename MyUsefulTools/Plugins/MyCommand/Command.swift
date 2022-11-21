@@ -16,6 +16,7 @@ extension MyCommand: XcodeCommandPlugin {
         let path = context.xcodeProject.directory.appending("hello.txt")
         let data = "hello".data(using: .utf8)
         FileManager.default.createFile(atPath: path.string, contents: data)
+        print("hello command plugin!")
     }
 }
 #endif
